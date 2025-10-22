@@ -1,6 +1,3 @@
-
-
-
 def compute_instantaneous_inflation(pi_series, alpha):
     """Beregn π_t^{12,α} = (∏_{k=0}^{11} (1 + π_{t-k})^{κ(k,α)}) - 1"""
     def instant_inflation_at_t(window):
